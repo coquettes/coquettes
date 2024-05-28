@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(227, 255, 239);
+}
+/* trtrtrtrt */
+img{
+    width: 10%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
