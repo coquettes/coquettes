@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(227, 255, 239);
+    background-color: white;
 }
 /* trtrtrtrt */
 img{
@@ -10,4 +10,5 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin: 10px;
 }
