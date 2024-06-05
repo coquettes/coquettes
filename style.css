@@ -23,6 +23,7 @@ header{
 
 @media screen and (min-width: 1024px) {
   
+    font-size: .intro 20px;
 }
 
 @media  screen and ( min-width: 172px) {
