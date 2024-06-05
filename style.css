@@ -1,5 +1,6 @@
 body{
     background-color: white;
+
 }
 /* trtrtrtrt */
 img{
@@ -16,6 +17,12 @@ header{
 
 }
 
-section{
-    font-size: 13px;
+.intro{
+    font-size: 11px;
+}
+
+@media screen and (min-width: 1024px) {
+    .intro{
+        font-size: 40px;
+    }
 }
