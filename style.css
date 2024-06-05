@@ -11,5 +11,6 @@ header{
     justify-content: space-between;
     align-items: flex-start;
     background-color: rgb(210, 255, 234);
+    border: 10px solid green;
 
 }
