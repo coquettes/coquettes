@@ -10,7 +10,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 10px;
     background-color: rgb(210, 255, 234);
-    
+
 }
