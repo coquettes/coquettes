@@ -18,7 +18,7 @@ header{
 }
 
 .intro{
-    font-size: 11px;
+    font-size: 7px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -26,6 +26,10 @@ header{
     font-size: .intro 20px;
 }
 
-@media  screen and ( min-width: 172px) {
-    
+@media  screen and ( min-width: 1440px) {
+
+    font-size: .intro 30px;
 }
+    
+
+
