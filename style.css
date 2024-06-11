@@ -21,14 +21,26 @@ header{
     font-size: 15px;
 }
 
+.objetivos{
+    font-size: 15px;
+}
+
+.opcoes{
+    font-size: 15px;
+}
+
 @media screen and (min-width: 1024px) {
   
     font-size: .intro 20px;
+    font-size: .objetivos 20px;
+    font-size: .opcoes 20px;
 }
 
 @media  screen and ( min-width: 1440px) {
 
     font-size: .intro 30px;
+    font-size: .objetivos 30px;
+    font-size: .opcoes 30px;
 }
     
 
