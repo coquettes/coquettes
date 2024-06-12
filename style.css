@@ -22,7 +22,9 @@ header{
 }
 
 .objetivos{
-    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     background-color: rgb(210, 255, 234);
 }
 
