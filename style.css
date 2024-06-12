@@ -31,6 +31,10 @@ header{
     font-size: 15px;
 }
 
+.nomes{
+    font-size: 15px;
+}
+
 @media screen and (min-width: 1024px) {
   
     font-size: .intro 20px;
