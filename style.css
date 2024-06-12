@@ -22,11 +22,13 @@ header{
 }
 
 .objetivos{
+    font-size: 15px;
    
 }
 
 .opcoes{
     font-size: 15px;
+    background-color: rgb(210, 255, 234);
 }
 
 @media screen and (min-width: 1024px) {
