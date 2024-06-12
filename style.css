@@ -23,6 +23,8 @@ header{
 
 .objetivos{
     font-size: 15px;
+    grid-template-columns: 33% 33% 33%;
+    background-color: rgb(210, 255, 234);
 }
 
 .opcoes{
