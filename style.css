@@ -14,6 +14,7 @@ header{
     background-color: rgb(210, 255, 234);
     border: 7px solid green;
     padding: 10px;
+    position: relative;
 
 }
 
@@ -35,6 +36,53 @@ header{
     font-size: 15px;
     background-color: rgb(210, 255, 234);
 }
+
+
+
+ul li{
+    list-style: none;
+}
+.texto{
+    color: white;
+}
+a{
+    color: white;
+     text-decoration: none;
+}
+.lista{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: rgb(210 , 255 , 234);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+
+}
+ .caixa:checked ~ .lista{
+    display: block;
+ }
+ #menu{
+    display:none;
+ }
+
+ .lista-item{
+    padding: 12px 0;
+ }
+ @media screen and (min-width: 1024px) {
+    .lista{
+        right: 8%;
+        width: 14%;
+        padding: 20px;
+        text-align: start;
+
+    }
+    .lista-item:hover{
+        background-color: rgb(210 , 255 , 234);
+    }
+ }
+
+
 
 @media screen and (min-width: 1024px) {
   
