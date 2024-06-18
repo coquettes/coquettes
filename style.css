@@ -38,16 +38,39 @@ header{
 
 @media screen and (min-width: 1024px) {
   
-    font-size: .intro 20px;
-    font-size: .objetivos 20px;
-    font-size: .opcoes 20px;
+    .intro{
+        font-size: 20px;
+    }
+   
+    .objetivos{
+        font-size: 20px;
+        background-color: rgb(210, 255, 234);
+       
+    }
+    
+    .opcoes{
+        font-size: 20px;
+    }
+    
 }
 
 @media  screen and ( min-width: 1440px) {
 
-    font-size: .intro 30px;
-    font-size: .objetivos 30px;
-    font-size: .opcoes 30px;
+   
+    .intro{
+        font-size: 30px;
+    }
+   
+    .objetivos{
+        font-size: 30px;
+        background-color: rgb(210, 255, 234);
+       
+    }
+    
+    .opcoes{
+        font-size: 30px;
+    }
+    
 }
     
 
