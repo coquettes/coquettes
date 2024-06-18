@@ -6,8 +6,8 @@ header{
     align-items: center;
     padding: 12px;
     justify-content: space-around;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     position: relative;
 }
 
@@ -15,9 +15,10 @@ ul li{
     list-style: none;
 }
 .texto{
-    
+    color: white;
 }
 a{
+    color: white;
      text-decoration: none;
 }
 .lista{
@@ -39,5 +40,17 @@ a{
 
  .lista-item{
     padding: 12px 0;
+ }
+ @media screen and (min-width: 1024px) {
+    .lista{
+        right: 8%;
+        width: 14%;
+        padding: 20px;
+        text-align: start;
+
+    }
+    .lista-item:hover{
+        background-color: rgb(210 , 255 , 234);
+    }
  }
 
